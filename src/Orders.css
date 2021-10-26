@@ -1,0 +1,19 @@
+hr{
+  border: 1px solid black;
+  margin-top: 2vh
+}
+
+#ordersTotalCost{
+  margin: 1vh;
+}
+
+#cost{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1vh;
+  position: relative;
+  top: 1vh;
+  left: 2vh;
+  width: fit-content;
+  font-size: 1.8vh;
+}

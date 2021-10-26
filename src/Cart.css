@@ -1,0 +1,64 @@
+.Cart{
+  position: relative;
+  font-size: 1.8vh;
+}
+
+.productInCart{
+  position: relative;
+  width: 90vw;
+  height: 20vh;
+  background-color: white;
+  box-shadow: 1vh 1vh rgba(120, 120, 120, 0.7);
+  border-radius: 1vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+
+.cartProductTitle{
+  position: absolute;
+  left: 40vh;
+  top: 6vh;
+}
+
+.cartProductImage{
+  max-width: 30vh;
+  max-height: 17vh;
+  position: absolute;
+}
+
+.cartProductPrice{
+  position: absolute;
+  left: 40vh;
+  top: 12vh
+}
+
+
+.removeFromCart{
+  float:right;
+  position: relative;
+  top: 8vh;
+  right: 3vw;
+}
+
+#checkOut{
+  position: fixed;
+  bottom: 10vh;
+  right: 10vw;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1vh;
+}
+
+#totalCost{
+  margin-top: 2vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 3vh;
+}
+
+.purchase{
+  position: relative;
+  left: 50%;
+  bottom: 1vh;
+  transform: translate(-50%);
+}

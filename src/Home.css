@@ -1,0 +1,8 @@
+
+
+.Home{
+  background: linear-gradient(to bottom, transparent, #F0F0F0	), url('./Images/Background.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+  min-height: 100vh;
+}

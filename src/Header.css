@@ -1,0 +1,52 @@
+.Header{
+  text-align: center;
+  height: 5vh;
+  background-color: #DCDCDC;
+}
+
+#homeButton{
+  position: absolute;
+  left: 1vh;
+  font-size: 5vh;
+  cursor: pointer;
+}
+
+#searchBar{
+  height: 3vh;
+  width: 40vw;
+}
+
+#searchIcon{
+  font-size: 3vh;
+  position: relative;
+  top: 1vh;
+  cursor: pointer;
+}
+
+#cartIcon{
+  font-size: 3vh;
+  position: relative;
+  top: 1vh;
+  left: 10vw;
+  cursor: pointer;
+}
+
+#cartCount{
+  display: inline-block;
+  position: relative;
+  left: 10vw;
+}
+
+.Buttons{
+
+}
+
+#loginButton{
+  position: relative;
+  left: 2vw;
+}
+
+#orderButton{
+  position: relative;
+  left: 4vw;
+}

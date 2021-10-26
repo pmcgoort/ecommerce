@@ -1,0 +1,37 @@
+.Product{
+  height: 30vh;
+  width: 30vh;
+  background-color: white;
+  box-shadow: 1vh 1vh rgba(120, 120, 120, 0.7);
+  border-radius: 1vh;
+  display: inline-block;
+  margin-left: 2vh;
+  margin-top: 2vh;
+  font-size: 1.8vh;
+}
+
+.productTitle{
+  text-align: center;
+}
+
+.productImage{
+  max-width: 100%;
+  max-height: 17vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.productPrice{
+  text-align: center;
+}
+
+.productRating{
+  text-align: center;
+}
+
+.addToCart{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}

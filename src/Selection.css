@@ -1,0 +1,24 @@
+.Selection{
+  height: 30vh;
+  width: 30vh;
+  background-color: white;
+  box-shadow: 1vh 1vh rgba(120, 120, 120, 0.7);
+  border-radius: 1vh;
+  display: inline-block;
+  margin-left: 2vh;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.selectionTitle{
+  text-align: center;
+}
+
+.selectionImage{
+  max-width: 100%;
+  max-height: 17vh;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
